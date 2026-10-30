@@ -8,4 +8,4 @@ nastroj: claude-code
 
 # Soubor test.txt
 
-V repozitáři vytvoř soubor test.txt a napiš do něj text Hello.
+V repozitáři vytvoř soubor test.txt a napiš do něj text Hello Woe.
