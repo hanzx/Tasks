@@ -1,0 +1,15 @@
+{
+  "verdict": "agree_with_changes",
+  "objections": [
+    {
+      "id": "O2",
+      "severity": "minor",
+      "text": "To, že NORAD na webu nebo v televizi zobrazuje Santovu aktuální polohu, neznamená, že skutečně radarově sleduje létající saně. Jde o symbolickou vánoční tradici a fiktivní vizualizaci.",
+      "suggestion": "Doplň: „NORAD na Štědrý den symbolicky zveřejňuje Santovu polohu; tato mapa či video nejsou důkazem skutečné existence Santy ani jeho letu.“",
+      "withdrawn": false
+    }
+  ],
+  "strengths": [
+    "Proposal přijímá hlavní opravu, že Santa v obchodním domě je člověk v kostýmu a NORAD program je vánoční tradice."
+  ]
+}
