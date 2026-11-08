@@ -1,0 +1,32 @@
+{
+  "verdict": "reject",
+  "objections": [
+    {
+      "id": "O5",
+      "severity": "major",
+      "text": "Pravidlo „pokud některý údaj chybí, nelze rozhodnout“ je příliš absolutní a činí rámec prakticky nepoužitelným. U neveřejné firmy budou přesné marže, závazky nebo pravděpodobnost selhání často nedostupné; absence údajů sama o sobě neznamená, že nelze provést konzervativní rozhodnutí.",
+      "suggestion": "Rozlišit kritické a nekritické neznámé. Používat intervaly, scénáře a confidence level; při neznámé kritické veličině stanovit konzervativní horní nákupní cenu nebo explicitní „nekupovat za žádnou ověřenou cenu“.",
+      "withdrawn": false
+    },
+    {
+      "id": "O6",
+      "severity": "major",
+      "text": "Rámec požaduje IRR, scénáře a citlivostní analýzu, ale neurčuje konkrétní výpočetní šablonu ani rozhodovací hranice. Není jasné, jak z tržeb, marží, burn rate, zředění a preferencí získat hodnotu akcie nebo jaké pravděpodobnosti scénářům přidělit.",
+      "suggestion": "Doplnit minimální worksheet: vstupní cena a plně zředěný počet akcií, scénářové tržby/marže/burn, potřeba financování, exit hodnota, preference, pravděpodobnosti, kurz, poplatky a daně. Výstupem má být interval IRR a maximální akceptovatelná cena při předem stanoveném prahu.",
+      "withdrawn": false
+    },
+    {
+      "id": "O7",
+      "severity": "minor",
+      "text": "Tvrzení, že AMZN/GOOGL představují „levnou“ proxy expozici, není podloženo oceněním a může být zavádějící; jejich cena zahrnuje mnoho jiných podniků a samotná citlivost na Anthropic nemusí být významná.",
+      "suggestion": "Nahradit „levná“ neutrálním „likvidní, ale nepřesná“ a vyžadovat odhad podílu hodnoty či výsledků Anthropic na celkové hodnotě proxy před jejím použitím.",
+      "withdrawn": false
+    }
+  ],
+  "strengths": [
+    "Správně ověřuje aktuální status, cenu a podmínky přístupu místo automatického doporučení.",
+    "Dobře pokrývá zředění, likvidační preference, výpočetní náklady, cash burn a riziko komoditizace modelů.",
+    "Rozumně omezuje velikost pozice a započítává nepřímou AI expozici v portfoliu.",
+    "Repozitář byl ověřen a skutečně obsahuje pouze README.md bez relevantních dat nebo modelu."
+  ]
+}
