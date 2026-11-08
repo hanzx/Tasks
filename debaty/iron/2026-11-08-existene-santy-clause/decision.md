@@ -1,0 +1,1 @@
+Ok souhlasim s navrhy.
